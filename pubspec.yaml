@@ -1,0 +1,51 @@
+name: alem_tv
+description: "Cinema hosting platform"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  smooth_page_indicator: ^1.2.0+3
+  cupertino_icons: ^1.0.6
+  go_router: ^14.6.1
+  better_player: ^0.0.84
+  flutter_riverpod: ^2.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/alem_tv_logo.png
+    - assets/test_film_1.jpg
+    - assets/test_film_2.jpg
+    - assets/test_film_3.jpg
+    - assets/test_film_4.jpg
+    - assets/test_film_5.jpg
+    - assets/test_film_vertical_1.jpg
+    - assets/test_film_vertical_2.jpg
+    - assets/test_film_vertical_3.jpg
+    - assets/test_film_vertical_4.jpg
+    - assets/test_film_vertical_5.jpg
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
